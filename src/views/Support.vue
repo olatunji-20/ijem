@@ -104,6 +104,7 @@ export default {
     },
     closedPaymentModal() {
       console.log("payment is closed");
+      router.push('/success')
     },
     generateReference() {
       let date = new Date();
