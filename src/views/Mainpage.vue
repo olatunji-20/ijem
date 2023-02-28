@@ -7,12 +7,13 @@
     <br />
     <h4>Please click on the button below to support.</h4>
     <router-link to="/support-page"><button>SUPPORT</button></router-link>
+    <p style="position: relative; top: 10px; font-size: 14px; font-family: Aclonica;">secured by</p>
     <img
       style="
         max-width: 200px;
-        max-height: 40px;
+        max-height: 33px;
         display: block;
-        margin: 20px auto;
+        margin: 0px auto;
       "
       alt="Vue logo"
       src="../assets/flutter.png"

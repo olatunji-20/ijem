@@ -55,12 +55,12 @@
             />
           </div>
           <br />
-          <br />
           <flutterwave-pay-button v-bind="paymentData">
             Click To Pay
           </flutterwave-pay-button>
         </div>
-        <img style="max-width: 200px" alt="Vue logo" src="../assets/flutter.png" />
+        <p style="position: relative; top: 10px; font-size: 14px; font-family: Aclonica;">secured by</p>
+        <img style="max-width: 200px; max-height: 33px; display: block; margin: 0px auto;" alt="Vue logo" src="../assets/flutter.png" />
       </div>
     </section>
   </div>
@@ -142,7 +142,8 @@ label {
 input {
   width: 100%;
   padding: 16px 8px;
-  margin: 8px 0;
+  margin: 8px 0px;
+  border-radius: 4px;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -151,10 +152,11 @@ button {
   background-color: #8ebf42;
   color: white;
   padding: 14px 0;
-  margin: 10px auto;
+  margin: 10px auto 3px;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
-  width: 80%;
+  width: 85%;
 }
 
 button:hover {
@@ -163,12 +165,14 @@ button:hover {
 .formcontainer {
   text-align: center;
   margin: 50px auto 12px;
-  padding: 40px;
+  padding: 40px 20px;
   width: 70%;
+  /* border: 1px solid red; */
 }
 .container {
   padding: 16px 0;
   text-align: center;
+  /* border: 1px solid blue; */
 }
 span.psw {
   float: right;
