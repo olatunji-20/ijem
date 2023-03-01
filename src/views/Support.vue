@@ -67,7 +67,7 @@
 </template>
     
     <script>
-import router from "../router";
+// import router from "../router";
 
 export default {
   name: "Support",
@@ -104,7 +104,7 @@ export default {
     },
     closedPaymentModal() {
       console.log("payment is closed");
-      router.push('/success')
+      // router.push('/success')
     },
     generateReference() {
       let date = new Date();
